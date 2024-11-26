@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, November 25, 2024 1:24:56 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "D:\Fuad\Fall 2024 materials\geog 4057\final project\data\finalproject\finalproject.atbx\Script.tool\tool.script.execute.py", line 48, in &lt;module&gt;
+﻿  File "D:\Fuad\Fall 2024 materials\geog 4057\final project\data\finalproject\finalproject.atbx\Script.tool\tool.script.execute.py", line 16, in getGeeElevation
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\computedobject.py", line 28, in __call__
+    return type.__call__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\deprecation.py", line 124, in Wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\image.py", line 75, in __init__
+    self.initialize()
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\image.py", line 121, in initialize
+    apifunction.ApiFunction.importApi(cls, cls.name(), cls.name())
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\_utils.py", line 38, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\apifunction.py", line 197, in importApi
+    cls.initialize()
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\apifunction.py", line 161, in initialize
+    signatures = data.getAlgorithms()
+                 ^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\data.py", line 1479, in getAlgorithms
+    _get_cloud_projects()
+﻿  File "C:\Users\fhasan2\AppData\Local\ESRI\conda\envs\arcgispro-nov24\Lib\site-packages\ee\data.py", line 350, in _get_cloud_projects
+    raise ee_exception.EEException(_NOT_INITIALIZED_MESSAGE)
+﻿ee.ee_exception.EEException: Earth Engine client library not initialized. See http://goo.gle/ee-auth.
+﻿
+If you suspect this is an IPython 8.18.1 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Script).</msg><msg code="0" type="3">Failed at Monday, November 25, 2024 1:24:56 PM (Elapsed Time: 0.13 seconds)</msg></messages>

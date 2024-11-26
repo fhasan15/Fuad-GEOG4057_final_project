@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, November 25, 2024 1:18:17 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+﻿  File "D:\Fuad\Fall 2024 materials\geog 4057\final project\data\finalproject\finalproject.atbx\Script1.tool\tool.script.execute.py", line 55, in &lt;module&gt;
+﻿NameError: name '_name_' is not defined
+﻿
+If you suspect this is an IPython 8.18.1 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+</msg><msg code="0" type="0">Failed script Script1...</msg><msg code="-2147467259" type="100">Failed to execute (Script1).</msg><msg code="0" type="3">Failed at Monday, November 25, 2024 1:18:19 PM (Elapsed Time: 2.24 seconds)</msg></messages>
